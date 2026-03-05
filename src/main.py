@@ -115,7 +115,7 @@ def main():
   datadir = f"{currdir}/../datasets/CIFAKE/train"
 
   # The range of files to select from each section of the dataset
-  range_ = 2
+  range_ = 2000
 
   # Generate arrays of filenames
   realFiles = [f"{r:04d}" for r in range(range_)]
@@ -136,7 +136,8 @@ def main():
                             aLabel = "real", bLabel = "synthetic", 
                             aColor = "#7BAE7F", bColor = "#454851", 
                             hLabel="frequency partitions", vLabel="noise",
-                            output=f"{currdir}/../figures/figure_1.png")
+                            output="")
+                            # output=f"{currdir}/../figures/figure_1.png")
 
   return
 

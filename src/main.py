@@ -136,8 +136,7 @@ def main():
                             aLabel = "real", bLabel = "synthetic", 
                             aColor = "#7BAE7F", bColor = "#454851", 
                             hLabel="frequency partitions", vLabel="noise",
-                            output="")
-                            # output=f"{currdir}/../figures/figure_1.png")
+                            output=f"{currdir}/../figures/figure_1.png")
 
   return
 
